@@ -28,12 +28,14 @@ domain: cclfmht.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cclfmht.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username:  cclfmht
+github_username: cclfmht
 
 # Build settings
-theme: jekyll-theme-slate
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
